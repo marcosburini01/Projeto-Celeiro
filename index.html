@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Celeiro Bar & Brasa</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		function abrir1(){
+				document.getElementById('popups').style.display = 'block';
+				document.getElementById('popup1').style.display = 'block';
+				document.getElementById("popup1").className = "popup";
+				document.getElementById('cards').style.display = 'none';
+				
+			}
+		function fechar1(){
+				document.getElementById('popups').style.display = 'none';
+				document.getElementById('popup1').style.display = 'none';
+				document.getElementById('cards').style.display = '';
+			}
+		function abrir2(){
+				document.getElementById('popups').style.display = 'block';
+				document.getElementById('popup2').style.display = 'block';
+				document.getElementById("popup2").className = "popup";
+				document.getElementById('cards').style.display = 'none';
+			}
+		function fechar2(){
+				document.getElementById('popups').style.display = 'none';
+				document.getElementById('popup2').style.display = 'none';
+				document.getElementById('cards').style.display = '';
+			}
+		function abrir3(){
+				document.getElementById('popups').style.display = 'block';
+				document.getElementById('popup3').style.display = 'block';
+				document.getElementById("popup3").className = "popup";
+				document.getElementById('cards').style.display = 'none';
+			}
+		function fechar3(){
+				document.getElementById('popups').style.display = 'none';
+				document.getElementById('popup3').style.display = 'none';
+				document.getElementById('cards').style.display = '';
+			}
+		function abrir4(){
+				document.getElementById('popups').style.display = 'block';
+				document.getElementById('popup4').style.display = 'block';
+				document.getElementById("popup4").className = "popup";
+				document.getElementById('cards').style.display = 'none';
+			}
+		function fechar4(){
+				document.getElementById('popups').style.display = 'none';
+				document.getElementById('popup4').style.display = 'none';
+				document.getElementById('cards').style.display = '';
+			}
+			
+		
+
+	</script>
+</head>
+<body>
+
+
+	<!-- Barra superior de pesquisa -->
+	<nav id="navBar">
+		<!-- imagem de logo -->
+		<div id="logo"><img width="100" height="100" src="../celeiro projeto/img/logo.jpg"></div>
+		<!-- botoes para redirecionamentos -->
+		<div id="links">
+			<span><a class="title" href="#">SOBRE NÓS</a></span>
+			<span><a class="title" href="#">CARDÁPIOS</a></span>
+			<span><a class="title" href="#">EVENTOS</a></span>
+			<span><a class="title" href="#">CONTATO</a></span>
+			<span><a class="button" href="#"><p id="botao">✓&nbsp&nbspReserva</p></a></span>
+		</div>
+
+	</nav>
+	<!-- corpo central do site -->
+	<div id="corpo">
+			<br><br><br><br><br><br><br><br><br><br>
+			<!-- titulo principal -->
+			<article id="tit1">
+			<span class="os" style="font-size: 88px;">OS</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="mais" style="font-size: 88px;">MAIS</span><br>
+			<span class="os" style="font-size: 58px;">PEDIDOS</span><br>
+			<span id="doc" style="font-size: 38px;">⭐⭐⭐⭐⭐ DO CELEIRO</span>
+			</article>
+			<br>
+		<!-- cards de comidas mais pedidas -->
+		<div id="cards">
+			<span class="card">
+				<img class="img" src="../celeiro projeto/img/card1.jpg"><br>
+				<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+				<p style="text-align: justify;margin-top: 10px;">O Prime Rib é o corte extraído da costela bovina com o característico...</p><br>
+				<a href="javascript: abrir1();"><p class="sbm" style="text-align: center;">Saiba Mais &nbsp&nbsp ></p></a>
+			</span>
+			<span class="card">
+				<img class="img" src="../celeiro projeto/img/card2.jpg"><br>
+				<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+				<p style="text-align: justify;margin-top: 10px;">O Prime Rib é o corte extraído da costela bovina com o característico...</p><br>
+				<a href="javascript: abrir2();"><p class="sbm" style="text-align: center;">Saiba mais &nbsp&nbsp ></p></a>
+			</span>
+			<span class="card">
+				<img class="img" src="../celeiro projeto/img/card3.jpg"><br>
+				<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+				<p style="text-align: justify;margin-top: 10px;">O Prime Rib é o corte extraído da costela bovina com o característico...</p><br>
+				<a href="javascript: abrir3();"><p class="sbm" style="text-align: center;">Saiba mais &nbsp&nbsp ></p></a>
+			</span>
+			<span class="card">
+				<img class="img" src="../celeiro projeto/img/card1.jpg"><br>
+				<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+				<p style="text-align: justify;margin-top: 10px;">O Prime Rib é o corte extraído da costela bovina com o característico...</p><br>
+				<a href="javascript: abrir4();"><p class="sbm" style="text-align: center;">Saiba mais &nbsp&nbsp ></p></a>
+			</span>
+		</div>
+
+		<!-- Pop-ups dos cards da index -->
+		<div id="popups">
+			<span class="popup">
+				<span id="popup1">
+					<p class="os" style="margin-top: 10%; font-size: 50px;">Prime Rib</p>
+					<p style="margin-top: 15px; text-align: center; width: 400px; margin-left: 16%;"> O Prime Rib é o corte extraído da costela bovina com o característico marmoreio da raça Angus. ele acompanha batata rústica, maionese ou vinagrete e farofa da casa.</p>
+					<img style="margin-top: 10px;border-radius: 20px;" width="300" src="../celeiro projeto/img/card1.jpg">
+					<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+					<a  href="javascript: fechar1();"><p class="sbm" style="text-align: center; width: 90px; margin-left: 41%; margin-top: 10px">Voltar &nbsp&nbsp ></p></a>
+				</span>
+				<span id="popup2">
+					<p class="os" style="margin-top: 10%; font-size: 50px;">Prime Rib</p>
+					<p style="margin-top: 15px; text-align: center; width: 400px; margin-left: 16%;"> O Prime Rib é o corte extraído da costela bovina com o característico marmoreio da raça Angus. ele acompanha batata rústica, maionese ou vinagrete e farofa da casa.</p>
+					<img style="margin-top: 10px;border-radius: 20px;" width="300" src="../celeiro projeto/img/card2.jpg">
+					<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+					<a  href="javascript: fechar2();"><p class="sbm" style="text-align: center; width: 90px; margin-left: 41%; margin-top: 10px">Voltar &nbsp&nbsp ></p></a>
+				</span>
+				<span id="popup3">
+					<p class="os" style="margin-top: 10%; font-size: 50px;">Prime Rib</p>
+					<p style="margin-top: 15px; text-align: center; width: 400px; margin-left: 16%;"> O Prime Rib é o corte extraído da costela bovina com o característico marmoreio da raça Angus. ele acompanha batata rústica, maionese ou vinagrete e farofa da casa.</p>
+					<img style="margin-top: 10px;border-radius: 20px;" width="300" src="../celeiro projeto/img/card3.jpg">
+					<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+					<a  href="javascript: fechar3();"><p class="sbm" style="text-align: center; width: 90px; margin-left: 41%; margin-top: 10px">Voltar &nbsp&nbsp ></p></a>
+				</span>
+				<span id="popup4">
+					<p class="os" style="margin-top: 10%; font-size: 50px;">Prime Rib</p>
+					<p style="margin-top: 15px; text-align: center; width: 400px; margin-left: 16%;"> O Prime Rib é o corte extraído da costela bovina com o característico marmoreio da raça Angus. ele acompanha batata rústica, maionese ou vinagrete e farofa da casa.</p>
+					<img style="margin-top: 10px;border-radius: 20px;" width="300" src="../celeiro projeto/img/card1.jpg">
+					<p style="text-align: center;">⭐⭐⭐⭐⭐</p>
+					<a  href="javascript: fechar4();"><p class="sbm" style="text-align: center; width: 90px; margin-left: 41%; margin-top: 10px">Voltar &nbsp&nbsp ></p></a>
+				</span>
+			</span>
+		</div>
+
+	</div>
+	
+	<footer>
+		<!-- Redes sociais e contato -->
+		<div id="redes">
+			<span><a href="https://api.whatsapp.com/message/HO4PKJROF6HTH1?autoload=1&app_absent=0"><img width="25" src="https://cdn-icons-png.flaticon.com/128/1384/1384095.png"></a></span>
+			<span><a href="https://www.facebook.com/celeirobarebrasa/"><img style="margin-left: 7px;" width="46" src="https://e7.pngegg.com/pngimages/962/15/png-clipart-computer-icons-facebook-logo-original-color-business-card-desktop-wallpaper-logos.png"></a></span>
+			<span><a href="https://www.instagram.com/celeirobarebrasa/?hl=pt"><img width="46" src="https://w7.pngwing.com/pngs/732/758/png-transparent-instagram-logo-mielectronics-pl-symbol-computer-icons-logo-social-media-instagram-logo-miscellaneous-text-monochrome-photography.png"></a></span>
+		</div>
+		<!-- Termos -->
+		<div style="text-align: center;margin-left: 17%; margin-top: 0.3%;">
+			<p style="font-size: 15px;"><strong>Termos de uso | Política de privacidade</strong></p>
+			<p style="font-size: 10px;margin-top: 0.5%;">CELEIRO Bar E BRASA LTDA. - CNPJ: 40.187.389/0001-40 - MATRIZ R. Olavo Bilac, 31 - Pirabeiraba, Joinville - SC, 89239-100</p>
+			<p></p>
+		</div>
+
+		<div style="margin-left: 23%;">
+			<img width="50" src="../celeiro projeto/img/logo.jpg">
+		</div>
+	</footer>
+
+</body>
+</html>
