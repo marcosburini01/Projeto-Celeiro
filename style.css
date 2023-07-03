@@ -182,3 +182,33 @@ span#popup4{
 	display: none;
 	position: fixed;
 }
+
+
+/*SOBRE NOS*/
+
+div#cont{
+	display: flex;
+}
+
+div#textosn{
+	background-color: rgba(0,0,0,0.7);
+	width: 490px;
+	height: 329px;
+}
+
+p#txt{
+	text-align: justify;
+	max-width: 460px;
+	color: white;
+	margin-left: 2.5%;
+	margin-top: 4%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#imgsup{
+	background-image: url("../Projeto-Celeiro/img/bgcard.png");
+	width: 600px;
+	height: 200px;
+	margin-left: 6%;
+	display: flex;
+}
