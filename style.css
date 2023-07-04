@@ -212,3 +212,19 @@ div#imgsup{
 	margin-left: 6%;
 	display: flex;
 }
+
+
+div#cp1{
+	background-color: rgba(0,0,0,0.7);
+	width: 490px;
+	height: 229px;
+	display: flex;
+}
+
+div#cp2{
+	background-image: url("../Projeto-Celeiro/img/bgcard.png");
+	width: 600px;
+	height: 400px;
+	margin-left: 0%;
+	display: flex;
+}
