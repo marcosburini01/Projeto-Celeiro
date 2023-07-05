@@ -22,7 +22,7 @@ div#links{
 	display: flex;
 	align-items: center;
 	gap: 40px;
-	margin-left: 10%;
+	margin-left: 14%;
 }	
 
 a{
@@ -46,7 +46,7 @@ a{
 	position: absolute;
 	width: 150px;
 	height: 50px;
-	left: 78%;
+	left: 85%;
 	top: 25px;
 	background: rgba(255, 0, 0, 0.94);
 	border-radius: 5px;
@@ -227,4 +227,14 @@ div#cp2{
 	height: 400px;
 	margin-left: 0%;
 	display: flex;
+}
+
+div#bxeve1{
+	background-color: rgba(0,0,0,0.7);
+	width: 450px;
+	height: 329px;
+}
+
+div#ele{
+	margin-left: 30%;
 }
